@@ -1,6 +1,6 @@
 export const SITE = {
-	title: 'Documentation',
-	description: 'Your website description.',
+	title: 'Nursing Study Docs',
+	description: 'A Study Website for Nursing',
 	defaultLanguage: 'en-us',
 } as const;
 
@@ -36,11 +36,21 @@ export type Sidebar = Record<
 >;
 export const SIDEBAR: Sidebar = {
 	en: {
-		'Section Header': [
-			{ text: 'Introduction', link: 'en/introduction' },
-			{ text: 'Page 2', link: 'en/page-2' },
-			{ text: 'Page 3', link: 'en/page-3' },
+		'Summaries': [
+			{text: '#todo', link: ''},
 		],
-		'Another Section': [{ text: 'Page 4', link: 'en/page-4' }],
+		'Notes': [
+			{text: 'Integumentary', link: 'en/integumentary'},
+			{text: 'Skeletal', link: 'en/skeletal'},
+			{text: 'Muscular', link: 'en/muscular'},
+			{text: 'Nervous', link: 'en/nervous'},
+			{text: 'Endocrine', link: 'en/endocrine'},
+			{text: 'Cardiovascular', link: 'en/cardiovascular'},
+			{text: 'Lymphatic', link: 'en/lymphatic'},
+			{text: 'Respiratory', link: 'en/respiratory/'},
+			{text: 'Digestive', link: 'en/digestive'},
+			{text: 'Urinary', link: 'en/urinary'},
+			{text: 'Reproductive', link: 'en/reproductive'},
+		],
 	},
 };
