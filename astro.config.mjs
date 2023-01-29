@@ -4,6 +4,8 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://sagreenxyz.github.io',
+	base: '/density-disk',
 	integrations: [
 		// Enable Preact to support Preact JSX components.
 		preact(),
