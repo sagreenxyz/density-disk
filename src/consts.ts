@@ -36,21 +36,24 @@ export type Sidebar = Record<
 >;
 export const SIDEBAR: Sidebar = {
 	en: {
-		'Summaries': [
-			{text: '#todo', link: ''},
+		'Readings': [
+			{ text: '#todo', link: '' },
 		],
 		'Notes': [
-			{text: 'Integumentary', link: 'en/integumentary'},
-			{text: 'Skeletal', link: 'en/skeletal'},
-			{text: 'Muscular', link: 'en/muscular'},
-			{text: 'Nervous', link: 'en/nervous'},
-			{text: 'Endocrine', link: 'en/endocrine'},
-			{text: 'Cardiovascular', link: 'en/cardiovascular'},
-			{text: 'Lymphatic', link: 'en/lymphatic'},
-			{text: 'Respiratory', link: 'en/respiratory/'},
-			{text: 'Digestive', link: 'en/digestive'},
-			{text: 'Urinary', link: 'en/urinary'},
-			{text: 'Reproductive', link: 'en/reproductive'},
+			{ text: 'Integumentary', link: 'en/integumentary/' },
+			{ text: 'Skeletal', link: 'en/skeletal/' },
+			{ text: 'Muscular', link: 'en/muscular/' },
+			{ text: 'Nervous', link: 'en/nervous/' },
+			{ text: 'Endocrine', link: 'en/endocrine/' },
+			{ text: 'Cardiovascular', link: 'en/cardiovascular/' },
+			{ text: 'Lymphatic', link: 'en/lymphatic/' },
+			{ text: 'Respiratory', link: 'en/respiratory/' },
+			{ text: 'Digestive', link: 'en/digestive/' },
+			{ text: 'Urinary', link: 'en/urinary/' },
+			{ text: 'Reproductive', link: 'en/reproductive/' },
+		],
+		'Summaries': [
+			{ text: '#todo', link: '' },
 		],
 	},
 };
