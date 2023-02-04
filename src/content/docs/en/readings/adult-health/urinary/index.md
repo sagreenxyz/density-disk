@@ -133,4 +133,3 @@ Figure 10-13 Ileal Conduit or Ileal Loop
 Home Care Considerations - Urinary Diversion Warning Signs
 
 ## Nursing Process for the Patient With a Urinary Disorder
-
